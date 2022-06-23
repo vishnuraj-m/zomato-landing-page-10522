@@ -258,6 +258,48 @@
 
 /* !Collection End */
 
+/* !Location Start */
+.locations h1 {
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+}
+
+.location__card_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0;
+    gap: 1rem;
+}
+
+.location_card {
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 223);
+    width: 340px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem;
+    cursor: pointer;
+}
+
+.location_content {}
+
+.location_content h5 {
+    font-size: 20px;
+    color: #1c1c1c;
+}
+
+.location_content span {
+    font-size: 16px;
+    color: #363636;
+}
+
+/* !Location End */
+
 /* !Get App Start */
 .get__the_app {
     display: flex;
